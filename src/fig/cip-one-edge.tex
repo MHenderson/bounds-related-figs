@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+
+\GraphInit[vstyle=Classic]
+
+\Vertex[Lpos=-90, x=0, y=0, L=$v$]{v};
+\Vertex[Lpos=-90, x=2, y=0, L=$p_{1}$]{p1};
+
+\Edge[style ={-},label={$a_{1}$},labelstyle={above}]({v})({p1})
+\Edge[style ={draw=none},label={$(a_{2})$},labelstyle={below}]({v})({p1})
+
+\end{tikzpicture}
