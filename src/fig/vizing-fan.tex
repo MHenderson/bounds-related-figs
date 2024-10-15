@@ -1,26 +1,22 @@
-\begin{tikzpicture}
-  \GraphInit[vstyle=Classic]
+\GraphInit[vstyle=Classic]
 
-  \Vertex[Lpos=180]{v}
-  \Vertex[Lpos=-90, a=0, d=4cm, L=$y_{1}$]{y1}
-  \Vertex[Lpos=-90, a=25, d=4cm, L=$y_{2}$]{y2}
-  \Vertex[Lpos=-90, a=50, d=4cm, L=$y_{3}$]{y3}
-  \Vertex[Lpos=180, a=85, d=4cm, L=$y_{i-1}$]{yim1}
-  \Vertex[Lpos=180, a=110, d=4cm, L=$y_{i}$]{yi}
+\Vertex[Lpos=180]{v}
+\Vertex[Lpos=-90, a=0, d=4cm, L=$y_{1}$]{y1}
+\Vertex[Lpos=-90, a=25, d=4cm, L=$y_{2}$]{y2}
+\Vertex[Lpos=-90, a=50, d=4cm, L=$y_{3}$]{y3}
+\Vertex[Lpos=180, a=85, d=4cm, L=$y_{i-1}$]{yim1}
+\Vertex[Lpos=180, a=110, d=4cm, L=$y_{i}$]{yi}
 
-  \Edge[style ={-, dashed}]({v})({y1})
-  \Edge[style ={-}, label={$t_{1}$},labelstyle={above}]({v})({y2})
-  \Edge[style ={-}, label={$t_{2}$},labelstyle={above}]({v})({y3})
-  \Edge[style ={-}, label={$t_{i - 2}$},labelstyle={above}]({v})({yim1})
-  \Edge[style ={-}, label={$t_{i - 1}$},labelstyle={above}]({v})({yi})
+\Edge[style ={-, dashed}]({v})({y1})
+\Edge[style ={-}, label={$t_{1}$},labelstyle={above}]({v})({y2})
+\Edge[style ={-}, label={$t_{2}$},labelstyle={above}]({v})({y3})
+\Edge[style ={-}, label={$t_{i - 2}$},labelstyle={above}]({v})({yim1})
+\Edge[style ={-}, label={$t_{i - 1}$},labelstyle={above}]({v})({yi})
 
-  \Edge[style ={-,dashed,bend right}]({y3})({yim1})
+\Edge[style ={-,dashed,bend right}]({y3})({yim1})
 
-  \node[text width = 2cm, anchor=north, below=5pt] at (v) {(no $a, b$)};
-  \node[text width = 2cm, anchor=west, right=8pt] at (y1) {(no $t_{1}$)};
-  \node[text width = 2cm, anchor=west, right=8pt] at (y2) {(no $t_{2}$)};
-  \node[text width = 2cm, anchor=west, right=8pt] at (y3) {(no $t_{3}$)};
-  \node[text width = 2cm, anchor=east, above=8pt] at (yim1) {(no $t_{i - 1}$)};
-
-\end{tikzpicture}
-
+\node[text width = 2cm, anchor=north, below=5pt] at (v) {(no $a, b$)};
+\node[text width = 2cm, anchor=west, right=8pt] at (y1) {(no $t_{1}$)};
+\node[text width = 2cm, anchor=west, right=8pt] at (y2) {(no $t_{2}$)};
+\node[text width = 2cm, anchor=west, right=8pt] at (y3) {(no $t_{3}$)};
+\node[text width = 2cm, anchor=east, above=8pt] at (yim1) {(no $t_{i - 1}$)};
