@@ -1,0 +1,12 @@
+      23      59    1218 src/fig/bicoloured-cip.tex
+      24      84    1198 src/fig/cip-cut-left.tex
+      24      94    1236 src/fig/cip-cut-right.tex
+      34     127    1925 src/fig/cip-cut.tex
+       7      13     250 src/fig/cip-one-edge.tex
+      13      29     609 src/fig/cip-three-edge.tex
+      10      21     434 src/fig/cip-two-edge-flip.tex
+      10      21     425 src/fig/cip-two-edge.tex
+      18      48     927 src/fig/cip.tex
+      18      54     946 src/fig/cipflip.tex
+      22      97    1008 src/fig/vizing-fan.tex
+     203     647   10176 total
