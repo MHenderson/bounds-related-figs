@@ -1,5 +1,5 @@
 PROJECT = bounds-related-figs
-VERSION = 0.1.1
+VERSION = 0.1.2
 SUBFOLDER = Graph\ Theory/List\ Colouring
 
 FINAL_INPUT = src/$(PROJECT).tex src/*.tex
